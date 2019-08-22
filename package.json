@@ -3,11 +3,23 @@
     "version": "1.0.0",
     "author": "AO.com",
     "description": "Front end boilerplate",
-    "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build:dev": "webpack --mode=development --stage=dev",
+        "build:prod": "webpack --mode=production",
+        "test": "jest",
+        "test:ci": "jest --coverage"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mikachan/fe-boilerplate.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mikachan/fe-boilerplate/issues"
+    },
+    "homepage": "https://github.com/mikachan/fe-boilerplate#readme",
     "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "jest": "^24.9.0",
         "webpack": "^4.39.2",
         "webpack-cli": "^3.3.7"
     }
