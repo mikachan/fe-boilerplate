@@ -1,0 +1,14 @@
+{
+    "name": "fe-boilerplate",
+    "version": "1.0.0",
+    "author": "AO.com",
+    "description": "Front end boilerplate",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.7"
+    }
+}
