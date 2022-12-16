@@ -19,7 +19,7 @@
     "homepage": "https://github.com/mikachan/fe-boilerplate#readme",
     "devDependencies": {
         "@babel/core": "^7.7.7",
-        "jest": "^24.9.0",
+        "jest": "^29.3.1",
         "webpack": "^4.41.5",
         "webpack-cli": "^3.3.12"
     }
